@@ -29,8 +29,8 @@ public class PhysicsComponent {
     private boolean kinematic; // Use this to change whether or not an object is moveable at runtime
     private boolean collisionHandled; // Helper used in some cases, to ensure multiple collisions on a single frame are only handled once
 
-    Vector3 collisionPositionChanges = new Vector3();
-    int collisionPositionChangeCount = 0;
+    private Vector3 collisionPositionChanges = new Vector3();
+    private int collisionPositionChangeCount = 0;
 
     private static Matrix4 idtMatrix = new Matrix4();
     

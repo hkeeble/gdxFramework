@@ -11,12 +11,12 @@ import com.henrik.gdxFramework.entities.GameObject;
  * Created by Henri on 21/11/2014.
  */
 public class ModelGraphicsComponent {
-    ModelInstance model;
-    BoundingBox boundingBox;
-    BoundingBox transBoundingBox;
+    private ModelInstance model;
+    private BoundingBox boundingBox;
+    private BoundingBox transBoundingBox;
 
-    Vector3 min;
-    Vector3 max;
+    private Vector3 min;
+    private Vector3 max;
 
     public ModelGraphicsComponent(ModelInstance model) {
         this.model = model;

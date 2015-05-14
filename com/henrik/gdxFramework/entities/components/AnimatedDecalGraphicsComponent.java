@@ -25,9 +25,9 @@ public class AnimatedDecalGraphicsComponent {
     protected BoundingBox boundingBox;
     protected BoundingBox trnBoundingBox;
 
-    boolean inView; // Whether or not this entity is within view
+    protected boolean inView; // Whether or not this entity is within view
 
-    float xRotation;
+    protected float xRotation;
 
     public AnimatedDecalGraphicsComponent(float width, float height, Animation animation) {
         this(width, height, animation, true);

@@ -10,7 +10,7 @@ public class Profiler {
 
     private int fps, glCalls, glTextureBindings, glDrawCalls, glShaderSwitches;
     private float glVertexCount;
-    boolean enabled;
+    private boolean enabled;
 
     public Profiler() {
         fps = 0;

@@ -32,7 +32,7 @@ public class DecalGraphicsComponent {
 
     private TextureRegion textureRegion;
     
-    boolean inView; // Whether or not this entity is within view
+    protected boolean inView; // Whether or not this entity is within view
 
     public DecalGraphicsComponent() {
         decal = new Decal();

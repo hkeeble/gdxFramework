@@ -23,9 +23,9 @@ import java.util.ArrayList;
  */
 public class HUD extends Stage {
 
-    OrthographicCamera camera;
-    Viewport viewport;
-    Table mainTable;
+	private OrthographicCamera camera;
+    private Viewport viewport;
+    private Table mainTable;
 
     private ArrayList<Table> tableList;
     private ArrayList<Label> labelList;

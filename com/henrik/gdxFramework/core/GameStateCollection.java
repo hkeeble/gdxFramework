@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class GameStateCollection {
 
-    Map<Game.State,GameState> states;
+    private Map<Game.State,GameState> states;
 
     public GameStateCollection() {
         states = new HashMap<Game.State,GameState>();

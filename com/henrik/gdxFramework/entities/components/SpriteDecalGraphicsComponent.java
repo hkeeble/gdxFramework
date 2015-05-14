@@ -25,9 +25,9 @@ public class SpriteDecalGraphicsComponent {
     protected BoundingBox boundingBox;
     protected BoundingBox trnBoundingBox;
 
-    boolean inView; // Whether or not this entity is within view
+    protected boolean inView; // Whether or not this entity is within view
 
-    float xRotation;
+    protected float xRotation;
 
     public SpriteDecalGraphicsComponent(float width, float height, HashMap<AnimationType, Animation> animations) {
         this(width, height, animations, true);
